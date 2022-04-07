@@ -10,4 +10,6 @@ end = datetime.datetime(2022, 4, 6)
 
 df = yf.download(investments_list, start=start, end=end)
 
+
+
 print(df)
